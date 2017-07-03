@@ -1,0 +1,38 @@
+﻿* { 
+	box-sizing: border-box; 
+}
+
+.stopwatch {
+	font-size: 40px;
+	margin: 0 auto;
+	text-align: center;
+	background: gray;
+	padding-bottom: 30px;
+}
+
+.controls {
+	text-align: center;
+	background: gray;
+	display: block;
+	height: 150px;
+	margin: 0 auto;
+}
+
+.button {
+	text-align: center;
+	line-height: 100px;
+	padding: 25px 30px;
+	min-width: 160px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 5px;
+	background-color: inherit;
+	border: 2px solid;
+	transition: .4s;
+	cursor: pointer;
+	color: #f1c40f;
+}
+
+.button:hover {
+	color: white;
+}
